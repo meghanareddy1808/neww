@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Login from './screens/Login'
+import Login from './screens/Login';
+import Home from './screens/Home';
 
 function App() {
   return (
