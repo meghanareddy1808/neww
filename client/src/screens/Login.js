@@ -4,8 +4,7 @@ import { Container, TextField, Button, Typography, Box } from '@mui/material';
 import axios from 'axios';
 
 const Login = () => {
-  const response= axios.post('/login')
-  const {success, authToken}= response.data;
+ 
 
 
   
