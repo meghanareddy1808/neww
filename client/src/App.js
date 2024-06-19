@@ -6,6 +6,7 @@ import Home from './screens/Home';
 import Counselling from './screens/Counselling';
 import LanguageSelector from './screens/LanguageSelector';
 import Forum from './screens/Forum';
+import Navbar from './screens/Navbar';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <div>
         <header>
           <LanguageSelector />
+          <Navbar/>
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
